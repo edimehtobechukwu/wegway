@@ -1,9 +1,11 @@
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 
 export function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
+  const { t, i18n } = useTranslation();
   const location = useLocation();
   const isHome = location.pathname === "/";
 
@@ -12,12 +14,19 @@ export function Navbar() {
   const getLink = (anchor: string) => `/${anchor}`;
 
   const navLinks = [
-    { name: "Start", href: getLink("#") },
-    { name: "Der Park", href: getLink("#park") },
-    { name: "Aktivitäten", href: getLink("#activities") },
-    { name: "Feiern", href: getLink("#parties") },
-    { name: "Kontakt", href: getLink("#contact") },
+    { name: t('nav.start'), href: getLink("#") },
+    { name: t('nav.park'), href: getLink("#park") },
+    { name: t('nav.activities'), href: getLink("#activities") },
+    { name: t('nav.parties'), href: getLink("#parties") },
+    { name: t('nav.contact'), href: getLink("#contact") },
   ];
+
+  const toggleLanguage = () => {
+    const newLang = i18n.language === "DE" ? "EN" : "DE";
+    i18n.changeLanguage(newLang);
+  };
+
+  const language = i18n.language || "DE";
 
   return (
     <nav className="absolute top-0 left-0 w-full z-50 bg-[#1a4d2e] text-white">
@@ -33,7 +42,7 @@ export function Navbar() {
 
         {/* Desktop Menu */}
         <div className="hidden md:flex items-center gap-8">
-          <div className="flex gap-8">
+          <div className="flex gap-8 items-center">
             {navLinks.map((link) => (
               <Link
                 key={link.name}
@@ -43,17 +52,37 @@ export function Navbar() {
                 {link.name}
               </Link>
             ))}
+
+            {/* Language Toggle Desktop */}
+            <button
+              onClick={toggleLanguage}
+              className="ml-4 font-['Oswald',sans-serif] font-bold text-[14px] tracking-[0.35px] hover:text-[#eec643] transition-colors flex items-center gap-1"
+            >
+              <span className={language === "DE" ? "text-[#eec643]" : "text-white/70"}>DE</span>
+              <span className="text-white/50">/</span>
+              <span className={language === "EN" ? "text-[#eec643]" : "text-white/70"}>EN</span>
+            </button>
           </div>
           <Link
             to="/booking"
-            className="bg-[#eec643] text-[#1a4d2e] px-6 py-2 rounded-full font-['Oswald',sans-serif] font-bold text-[16px] tracking-[0.4px] uppercase hover:bg-white transition-colors"
+            className="bg-[#eec643] text-[#1a4d2e] px-6 py-2 rounded-full font-['Oswald',sans-serif] font-bold text-[16px] tracking-[0.4px] uppercase hover:bg-white transition-colors whitespace-nowrap"
           >
-            Buchen
+            {t('nav.book')}
           </Link>
         </div>
 
         {/* Mobile Menu Button */}
-        <div className="md:hidden">
+        <div className="md:hidden flex items-center gap-4">
+          {/* Language Toggle Mobile (Header) */}
+          <button
+            onClick={toggleLanguage}
+            className="font-['Oswald',sans-serif] font-bold text-[14px] tracking-[0.35px] flex items-center gap-1"
+          >
+            <span className={language === "DE" ? "text-[#eec643]" : "text-white/70"}>DE</span>
+            <span className="text-white/50">/</span>
+            <span className={language === "EN" ? "text-[#eec643]" : "text-white/70"}>EN</span>
+          </button>
+
           <button
             onClick={() => setIsOpen(!isOpen)}
             className="text-white hover:text-[#eec643] focus:outline-none"
@@ -82,7 +111,7 @@ export function Navbar() {
               className="bg-[#eec643] text-[#1a4d2e] px-6 py-2 rounded-full font-['Oswald',sans-serif] font-bold text-[16px] tracking-[0.4px] uppercase text-center w-full block hover:bg-white transition-colors"
               onClick={() => setIsOpen(false)}
             >
-              Buchen
+              {t('nav.book')}
             </Link>
           </div>
         </div>

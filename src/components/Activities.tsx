@@ -5,6 +5,7 @@ import imgImagePaintball from "figma:asset/4a91cce0621134ede7d47bea84293b65d4390
 import imgImageTrampoline from "figma:asset/dffa930104097e824954fe9c47c2aa6fa5df4df2.png";
 import { ArrowRight, Tag } from "lucide-react";
 import { ScrollReveal } from "./ScrollReveal";
+import { useTranslation } from "react-i18next";
 
 interface ActivityProps {
   title: string;
@@ -45,14 +46,14 @@ function ActivityItem({ title, description, image, imageAlt, priceText, details,
             </div>
 
             <div className="bg-[#e87c46] rounded-lg p-6 relative mt-4">
-               <div className="absolute top-[-12px] left-[24px] bg-[#eec643] px-3 py-1 rounded shadow-sm">
-                  <span className="font-['Oswald',sans-serif] font-bold text-[#1a4d2e] text-[12px] uppercase">
-                     Wie es funktioniert
-                  </span>
-               </div>
-               <p className="font-['Oswald',sans-serif] font-medium text-white text-[14px] leading-relaxed opacity-90">
-                  {details}
-               </p>
+              <div className="absolute top-[-12px] left-[24px] bg-[#eec643] px-3 py-1 rounded shadow-sm">
+                <span className="font-['Oswald',sans-serif] font-bold text-[#1a4d2e] text-[12px] uppercase">
+                  Wie es funktioniert
+                </span>
+              </div>
+              <p className="font-['Oswald',sans-serif] font-medium text-white text-[14px] leading-relaxed opacity-90">
+                {details}
+              </p>
             </div>
           </div>
         </div>
@@ -62,50 +63,62 @@ function ActivityItem({ title, description, image, imageAlt, priceText, details,
 }
 
 export function Activities() {
+  const { t } = useTranslation();
+
   const activities = [
     {
-      title: "Hüpfburgen & Spielplatz",
-      description: "Entwickelt für Kinder von 3 bis 12 Jahren. Beinhaltet verschiedene Hüpfburgen, einen zweistöckigen Spielplatz, Rutschen, Kletterwände und ein Bällebad. Ein sicherer Ort, an dem Kinder frei spielen können.",
+      title: t('activities.items.0.title'),
+      description: t('activities.items.0.description'),
       image: imgImageHupfburgenSpielplatz,
       imageAlt: "Hüpfburgen",
-      priceText: "Preise",
-      details: "Kinder müssen immer Socken tragen. Die Aufsicht durch einen verantwortlichen Erwachsenen im umliegenden Bereich ist obligatorisch.",
+      priceText: t('activities.button_prices'),
+      details: t('activities.items.0.details'),
+      howItWorksLabel: t('activities.how_it_works'),
+      bookLabel: t('activities.button_book'),
       isImageRight: true
     },
     {
-      title: "Kletterwald",
-      description: "Der Kletterwald bietet Parcours zwischen Plattformen in den Baumkronen. Überwinde deine Grenzen mit Hängebrücken, Netzen und Tunneln.",
+      title: t('activities.items.1.title'),
+      description: t('activities.items.1.description'),
       image: imgImageKletterwald,
       imageAlt: "Kletterwald",
-      priceText: "Preise",
-      details: "Sicherheitsausrüstung (Gurt) inklusive. Einweisung obligatorisch. Parcours mit verschiedenen Schwierigkeitsgraden verfügbar.",
+      priceText: t('activities.button_prices'),
+      details: t('activities.items.1.details'),
+      howItWorksLabel: t('activities.how_it_works'),
+      bookLabel: t('activities.button_book'),
       isImageRight: false
     },
     {
-      title: "Klettern",
-      description: "Unser Kletterturm verfügt über 4 Routen mit unterschiedlichen Schwierigkeitsgraden. Teste deine Kraft und Beweglichkeit in völliger Sicherheit.",
+      title: t('activities.items.2.title'),
+      description: t('activities.items.2.description'),
       image: imgImageKlettern,
       imageAlt: "Klettern",
-      priceText: "Preise",
-      details: "Automatisches Sicherungssystem 'TruBlue'. Betreuung durch spezialisierte Monitore. Mindestgröße: 1,10m.",
+      priceText: t('activities.button_prices'),
+      details: t('activities.items.2.details'),
+      howItWorksLabel: t('activities.how_it_works'),
+      bookLabel: t('activities.button_book'),
       isImageRight: true
     },
     {
-      title: "Paintball",
-      description: "Ein Schlachtfeld mitten im Wald. Verstecke dich hinter Bäumen, entwickle Strategien mit deinem Team und eliminiere die Gegner mit Farbkugeln.",
+      title: t('activities.items.3.title'),
+      description: t('activities.items.3.description'),
       image: imgImagePaintball,
       imageAlt: "Paintball",
-      priceText: "Preise",
-      details: "Inklusive Markierer, Maske, Weste und 100 Bällen. Zusätzliche Nachfüllungen erhältlich. Mindestens 6 Teilnehmer.",
+      priceText: t('activities.button_prices'),
+      details: t('activities.items.3.details'),
+      howItWorksLabel: t('activities.how_it_works'),
+      bookLabel: t('activities.button_book'),
       isImageRight: false
     },
     {
-      title: "Trampoline",
-      description: "Springe, drehe dich und habe Spaß in unserer Trampolinzone. Eine Aktivität, um viel Energie loszuwerden!",
+      title: t('activities.items.4.title'),
+      description: t('activities.items.4.description'),
       image: imgImageTrampoline,
       imageAlt: "Trampoline",
-      priceText: "Preise",
-      details: "Sitzungen von 30 Minuten. Rutschfeste Socken sind Pflicht. Maximal 1 Person pro Trampolin.",
+      priceText: t('activities.button_prices'),
+      details: t('activities.items.4.details'),
+      howItWorksLabel: t('activities.how_it_works'),
+      bookLabel: t('activities.button_book'),
       isImageRight: true
     }
   ];
@@ -115,12 +128,12 @@ export function Activities() {
       <div className="text-center mb-16 px-4">
         <ScrollReveal>
           <p className="font-['Oswald',sans-serif] font-bold text-[#eec643] text-[14px] uppercase tracking-[1.4px] mb-2">
-            Abenteuer
+            {t('activities.section_subtitle')}
           </p>
           <h2 className="font-['Oswald',sans-serif] font-bold text-white text-[32px] md:text-[60px] leading-tight uppercase">
-            Erlebe Spaß mit unseren
+            {t('activities.section_title_part1')}
             <br />
-            exklusiven Erlebnissen
+            {t('activities.section_title_part2')}
           </h2>
         </ScrollReveal>
       </div>

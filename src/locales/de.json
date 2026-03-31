@@ -1,0 +1,201 @@
+{
+    "nav": {
+        "start": "Start",
+        "park": "Der Park",
+        "activities": "Aktivitäten",
+        "parties": "Feiern",
+        "contact": "Kontakt",
+        "book": "Buchen"
+    },
+    "hero": {
+        "title_part1": "Entdecke die Essenz",
+        "title_part2": "der Natur",
+        "title_part3": "im Berliner Grunewald",
+        "button_activities": "Aktivitäten ansehen",
+        "button_learn": "Mehr erfahren"
+    },
+    "activities": {
+        "section_subtitle": "Abenteuer",
+        "section_title_part1": "Erlebe Spaß mit unseren",
+        "section_title_part2": "exklusiven Erlebnissen",
+        "button_prices": "Preise",
+        "button_book": "Buchen",
+        "how_it_works": "Wie es funktioniert",
+        "items": [
+            {
+                "title": "Hüpfburgen & Spielplatz",
+                "description": "Entwickelt für Kinder von 3 bis 12 Jahren. Beinhaltet verschiedene Hüpfburgen, einen zweistöckigen Spielplatz, Rutschen, Kletterwände und ein Bällebad. Ein sicherer Ort, an dem Kinder frei spielen können.",
+                "details": "Kinder müssen immer Socken tragen. Die Aufsicht durch einen verantwortlichen Erwachsenen im umliegenden Bereich ist obligatorisch."
+            },
+            {
+                "title": "Kletterwald",
+                "description": "Der Kletterwald bietet Parcours zwischen Plattformen in den Baumkronen. Überwinde deine Grenzen mit Hängebrücken, Netzen und Tunneln.",
+                "details": "Sicherheitsausrüstung (Gurt) inklusive. Einweisung obligatorisch. Parcours mit verschiedenen Schwierigkeitsgraden verfügbar."
+            },
+            {
+                "title": "Klettern",
+                "description": "Unser Kletterturm verfügt über 4 Routen mit unterschiedlichen Schwierigkeitsgraden. Teste deine Kraft und Beweglichkeit in völliger Sicherheit.",
+                "details": "Automatisches Sicherungssystem 'TruBlue'. Betreuung durch spezialisierte Monitore. Mindestgröße: 1,10m."
+            },
+            {
+                "title": "Paintball",
+                "description": "Ein Schlachtfeld mitten im Wald. Verstecke dich hinter Bäumen, entwickle Strategien mit deinem Team und eliminiere die Gegner mit Farbkugeln.",
+                "details": "Inklusive Markierer, Maske, Weste und 100 Bällen. Zusätzliche Nachfüllungen erhältlich. Mindestens 6 Teilnehmer."
+            },
+            {
+                "title": "Trampoline",
+                "description": "Springe, drehe dich und habe Spaß in unserer Trampolinzone. Eine Aktivität, um viel Energie loszuwerden!",
+                "details": "Sitzungen von 30 Minuten. Rutschfeste Socken sind Pflicht. Maximal 1 Person pro Trampolin."
+            }
+        ]
+    },
+    "parties": {
+        "groups": "Gruppen",
+        "title_part1": "Bei",
+        "title_part2": "kannst du dein Universum neu erschaffen – für die perfekte Party!",
+        "steps": {
+            "01": {
+                "title": "Wähle die Aktivitäten",
+                "text": "Wähle aus Kletterwald, Paintball, Klettern und vielem mehr."
+            },
+            "02": {
+                "title": "Definiere das Menü",
+                "text": "Wir haben Catering-Optionen für jeden Geschmack und Bedarf."
+            },
+            "03": {
+                "title": "Lade Freunde ein",
+                "text": "Wir haben Platz für kleine Gruppen und große Events."
+            },
+            "04": {
+                "title": "Hab Spaß!",
+                "text": "Unser Team kümmert sich um die Sicherheit und Animation."
+            }
+        },
+        "button": "Party-Pakete ansehen"
+    },
+    "faq": {
+        "badge": "Fragen?",
+        "title_part1": "Klären Sie",
+        "title_part2": "Ihre Fragen",
+        "subtitle": "Nicht gefunden, was Sie suchen?",
+        "contact_link": "Kontaktieren Sie uns direkt.",
+        "faqs": [
+            {
+                "question": "Wie sind die Öffnungszeiten?",
+                "answer": "Wir sind täglich von 10:00 bis 18:00 Uhr im Winter und von 10:00 bis 20:00 Uhr im Sommer geöffnet. Wir empfehlen eine vorherige Reservierung."
+            },
+            {
+                "question": "Was ist das Mindestalter für die Aktivitäten?",
+                "answer": "Das Mindestalter variiert je nach Aktivität. Für den Spielplatz ab 3 Jahren, für den Kletterwald ab 6 Jahren (1,10m)."
+            },
+            {
+                "question": "Ist eine Reservierung im Voraus notwendig?",
+                "answer": "Es wird dringend empfohlen, besonders an Wochenenden und Feiertagen, um Wartezeiten zu vermeiden."
+            },
+            {
+                "question": "Was soll ich anziehen?",
+                "answer": "Bequeme Sportkleidung und festes Schuhwerk (Turnschuhe). Keine offenen Schuhe oder Sandalen beim Klettern."
+            },
+            {
+                "question": "Veranstalten Sie Kindergeburtstage?",
+                "answer": "Ja, wir bieten spezielle Pakete für Geburtstage mit reservierten Tischen und Verpflegung an."
+            }
+        ]
+    },
+    "gallery": {
+        "title_small": "Galerie",
+        "title_main_part1": "Momente der Freude",
+        "title_main_part2": "zum gemeinsamen Feiern!",
+        "cards": [
+            "Schulen",
+            "Firmen & Gruppen"
+        ]
+    },
+    "intro": {
+        "badge": "Über Uns",
+        "title": "WEG WAY ist ein Abenteuerpark im Herzen eines geschützten Waldes.",
+        "description": "Wir bieten den Bewohnern des Großraums Berlin sportliche Aktivitäten im Einklang mit der Natur.",
+        "feature_text": "Unser qualifiziertes Team legt großen Wert auf Naturschutz und die Sicherheit aller Teilnehmer. Unser Park entspricht allen geltenden europäischen Normen, damit Sie sich sorgenfrei vergnügen können."
+    },
+    "testimonials": {
+        "badge": "Exzellent",
+        "title": "Feedback auf TripAdvisor",
+        "reviews": [
+            {
+                "name": "Stefan M.",
+                "text": "\"Ein fantastischer Tag mit der Familie! Die Kinder liebten den Kletterwald und fühlten sich bei den Betreuern super sicher. Der Ort ist sehr schön und gepflegt. Wir kommen auf jeden Fall wieder!\""
+            },
+            {
+                "name": "Petra R.",
+                "text": "\"Hervorragender Ort für Geburtstagsfeiern. Die Organisation war tadellos und die Kinder waren keine Sekunde still. Das Paintball war das Highlight des Tages für die Älteren.\""
+            }
+        ]
+    },
+    "footer": {
+        "description": "Abenteuer, Natur und Spaß in Berlin, Grunewald. Dein Lieblingspark.",
+        "explore_col": {
+            "title": "Entdecken",
+            "items": [
+                "Der Park",
+                "Aktivitäten",
+                "Feiern",
+                "Schulen",
+                "Teambuilding"
+            ]
+        },
+        "contact_col": {
+            "title": "Kontakt",
+            "phone": "+49 30 12345678",
+            "phone_sub": "(Mobilfunknetz / Festnetz)",
+            "email": "hallo@wegway.de",
+            "address": "Grunewald, 14193 Berlin"
+        },
+        "newsletter_col": {
+            "title": "Newsletter",
+            "subtitle": "Erhalte Neuigkeiten und exklusive Angebote.",
+            "placeholder": "Deine E-Mail",
+            "button": "OK"
+        },
+        "bottom_bar": {
+            "copyright": "© 2026 WEG WAY. HERR KELVIN EDIMEH.",
+            "links": [
+                "Datenschutz",
+                "AGB",
+                "Impressum"
+            ]
+        }
+    },
+    "booking": {
+        "back_link": "Zurück zur Startseite",
+        "header_title": "Buche dein Abenteuer",
+        "header_subtitle": "Sichere dir jetzt deine Tickets für WEG WAY",
+        "section1": {
+            "title": "1. Wähle eine Aktivität",
+            "activities": [
+                "Kletterwald",
+                "Hüpfburgen",
+                "Klettern",
+                "Paintball",
+                "Trampoline"
+            ]
+        },
+        "section2": {
+            "title": "2. Datum & Uhrzeit",
+            "time_placeholder": "Uhrzeit wählen"
+        },
+        "section3": {
+            "title": "3. Teilnehmer",
+            "adults": "Erwachsene",
+            "children": "Kinder"
+        },
+        "section4": {
+            "title": "4. Deine Daten",
+            "firstname": "Vorname",
+            "lastname": "Nachname",
+            "email": "E-Mail Adresse",
+            "phone": "Telefonnummer"
+        },
+        "button": "Jetzt Buchen",
+        "disclaimer": "* Die Zahlung erfolgt vor Ort. Stornierung bis 24h vorher kostenlos."
+    }
+}

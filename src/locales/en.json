@@ -1,0 +1,201 @@
+{
+    "nav": {
+        "start": "Start",
+        "park": "The Park",
+        "activities": "Activities",
+        "parties": "Parties",
+        "contact": "Contact",
+        "book": "Book"
+    },
+    "hero": {
+        "title_part1": "Discover the essence",
+        "title_part2": "of nature",
+        "title_part3": "in Berlin Grunewald",
+        "button_activities": "View Activities",
+        "button_learn": "Learn More"
+    },
+    "activities": {
+        "section_subtitle": "Adventure",
+        "section_title_part1": "Experience fun with our",
+        "section_title_part2": "exclusive activities",
+        "button_prices": "Prices",
+        "button_book": "Book",
+        "how_it_works": "How it works",
+        "items": [
+            {
+                "title": "Bouncy Castles & Playground",
+                "description": "Designed for children aged 3 to 12. Includes various bouncy castles, a two-story playground, slides, climbing walls, and a ball pit. A safe space where children can play freely.",
+                "details": "Children must always wear socks. Supervision by a responsible adult in the surrounding area is mandatory."
+            },
+            {
+                "title": "Climbing Forest",
+                "description": "The climbing forest offers courses between platforms in the treetops. Push your limits with suspension bridges, nets, and tunnels.",
+                "details": "Safety gear (harness) included. Briefing mandatory. Courses with different difficulty levels available."
+            },
+            {
+                "title": "Climbing Tower",
+                "description": "Our climbing tower features 4 routes with varying levels of difficulty. Test your strength and agility in complete safety.",
+                "details": "Automatic 'TruBlue' belay system. Supervision by specialized instructors. Minimum height: 1.10m."
+            },
+            {
+                "title": "Paintball",
+                "description": "A battlefield right in the forest. Hide behind trees, develop strategies with your team, and eliminate opponents with paintballs.",
+                "details": "Includes marker, mask, vest, and 100 paintballs. Additional refills available. Minimum of 6 participants."
+            },
+            {
+                "title": "Trampolines",
+                "description": "Jump, spin, and have fun in our trampoline zone. A great activity to burn off a lot of energy!",
+                "details": "Sessions of 30 minutes. Non-slip socks are mandatory. Maximum 1 person per trampoline."
+            }
+        ]
+    },
+    "parties": {
+        "groups": "Groups",
+        "title_part1": "At",
+        "title_part2": "you can recreate your universe – for the perfect party!",
+        "steps": {
+            "01": {
+                "title": "Choose Activities",
+                "text": "Choose from Climbing Forest, Paintball, Climbing Tower, and much more."
+            },
+            "02": {
+                "title": "Define the Menu",
+                "text": "We have catering options for every taste and requirement."
+            },
+            "03": {
+                "title": "Invite Friends",
+                "text": "We have space for small groups and large events."
+            },
+            "04": {
+                "title": "Have Fun!",
+                "text": "Our team takes care of safety and animation."
+            }
+        },
+        "button": "View Party Packages"
+    },
+    "faq": {
+        "badge": "Questions?",
+        "title_part1": "Clarify",
+        "title_part2": "Your Questions",
+        "subtitle": "Didn't find what you are looking for?",
+        "contact_link": "Contact us directly.",
+        "faqs": [
+            {
+                "question": "What are the opening hours?",
+                "answer": "We are open daily from 10:00 AM to 6:00 PM in winter and from 10:00 AM to 8:00 PM in summer. We recommend making a reservation in advance."
+            },
+            {
+                "question": "What is the minimum age for activities?",
+                "answer": "The minimum age varies depending on the activity. For the playground from 3 years, for the climbing forest from 6 years (1.10m)."
+            },
+            {
+                "question": "Is an advance reservation necessary?",
+                "answer": "It is highly recommended, especially on weekends and public holidays, to avoid waiting times."
+            },
+            {
+                "question": "What should I wear?",
+                "answer": "Comfortable sports clothing and sturdy shoes (sneakers). No open shoes or sandals when climbing."
+            },
+            {
+                "question": "Do you host children's birthday parties?",
+                "answer": "Yes, we offer special birthday packages with reserved tables and catering."
+            }
+        ]
+    },
+    "gallery": {
+        "title_small": "Gallery",
+        "title_main_part1": "Moments of joy",
+        "title_main_part2": "to celebrate together!",
+        "cards": [
+            "Schools",
+            "Companies & Groups"
+        ]
+    },
+    "intro": {
+        "badge": "About Us",
+        "title": "WEG WAY is an adventure park in the heart of a protected forest.",
+        "description": "We offer the residents of the greater Berlin area sports activities in harmony with nature.",
+        "feature_text": "Our qualified team attaches great importance to nature conservation and the safety of all participants. Our park complies with all applicable European standards so that you can enjoy yourself carefree."
+    },
+    "testimonials": {
+        "badge": "Excellent",
+        "title": "Feedback on TripAdvisor",
+        "reviews": [
+            {
+                "name": "Stefan M.",
+                "text": "\"A fantastic day with the family! The kids loved the climbing forest and felt super safe with the instructors. The place is very beautiful and well-maintained. We will definitely come back!\""
+            },
+            {
+                "name": "Petra R.",
+                "text": "\"Excellent place for birthday parties. The organization was impeccable and the kids weren't still for a second. Paintball was the highlight of the day for the older ones.\""
+            }
+        ]
+    },
+    "footer": {
+        "description": "Adventure, nature and fun in Berlin, Grunewald. Your favorite park.",
+        "explore_col": {
+            "title": "Explore",
+            "items": [
+                "The Park",
+                "Activities",
+                "Parties",
+                "Schools",
+                "Teambuilding"
+            ]
+        },
+        "contact_col": {
+            "title": "Contact",
+            "phone": "+49 30 12345678",
+            "phone_sub": "(Mobile / Landline)",
+            "email": "hello@wegway.de",
+            "address": "Grunewald, 14193 Berlin"
+        },
+        "newsletter_col": {
+            "title": "Newsletter",
+            "subtitle": "Receive news and exclusive offers.",
+            "placeholder": "Your Email",
+            "button": "OK"
+        },
+        "bottom_bar": {
+            "copyright": "© 2026 WEG WAY. MR. KELVIN EDIMEH.",
+            "links": [
+                "Privacy Policy",
+                "Terms and Conditions",
+                "Imprint"
+            ]
+        }
+    },
+    "booking": {
+        "back_link": "Back to Home",
+        "header_title": "Book Your Adventure",
+        "header_subtitle": "Secure your tickets for WEG WAY now",
+        "section1": {
+            "title": "1. Choose an Activity",
+            "activities": [
+                "Climbing Forest",
+                "Bouncy Castles",
+                "Climbing",
+                "Paintball",
+                "Trampolines"
+            ]
+        },
+        "section2": {
+            "title": "2. Date & Time",
+            "time_placeholder": "Choose time"
+        },
+        "section3": {
+            "title": "3. Participants",
+            "adults": "Adults",
+            "children": "Children"
+        },
+        "section4": {
+            "title": "4. Your Data",
+            "firstname": "First Name",
+            "lastname": "Last Name",
+            "email": "Email Address",
+            "phone": "Phone Number"
+        },
+        "button": "Book Now",
+        "disclaimer": "* Payment is made on site. Cancellation up to 24h before free of charge."
+    }
+}
